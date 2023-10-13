@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;800&display=swap');
+body{
+    margin: 0;
+    padding: 80px;
+    color: white;
+    background-color: #2f2f2f;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+main{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(img/elipse.svg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size:96px;
+    margin: 10px;
+}
+.me{
+    font-size: 24px;
+}
+h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    background-color: #A0C1F6;
+    padding: 28px;
+    margin: 0px;
+    text-align: center;
+}
+.border {
+    padding: 60px;
+    border: 2px solid #A0C1F6;
+    border-radius: 20px 20px 0 0;
+    background-image: url(img/me.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+.p {
+    margin-top: 100px;
+}
+.container {
+    display: flex;
+}
+article {
+    border: 2px solid #A0C1F6;
+    border-radius: 20px;
+    padding: 20px;
+    width: 211px;
+    text-align: center;
+    margin-right: 20px;
+}
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+.offer h2 {
+    width: calc(100% / 3);
+}
+.offer1 {
+    border-radius: 0 0 0 20px;
+}
+.offer2 {
+    border-radius: 0 0 20px 0;
+}
